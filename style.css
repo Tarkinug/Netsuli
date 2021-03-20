@@ -1,0 +1,105 @@
+/*body {
+    background-image: url('images/tankonyvek_hatter.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}*/
+
+body{
+  background-color: grey;
+  height: 100%;
+}
+#leftside{
+  float: left;
+  display: inline-flex;
+  width: 150px;
+  height: 100vh;
+}
+
+#rightside{
+  float: right;
+  display: inline-flex;
+  width: 150px;
+  height: 100vh;
+}
+
+#flex{
+  align-items: top;
+}
+
+#danigeri{
+  float:right;
+  width: 40%;
+  height: 40%;
+}
+
+    #bemutatkozo {
+      float: left;
+       color:black;
+       align-items: center;
+       text-align: center;        
+       border:black;
+       border-image-width: 5px;
+       border-style: solid;
+      margin:auto;
+      width: 35%;
+      background-color: white;
+      
+    }
+    #bemutatkozo2 {
+      float: right;
+       color:black;
+       align-items: center;
+       text-align: center;        
+       border:black;
+       border-image-width: 5px;
+       border-style: solid;
+      margin:auto;
+      width: 35%;
+      background-color: white;
+      
+    }
+  #balra{
+    text-align: left;
+  }
+  #kozepre{
+    text-align: center;
+    color: blue;
+  }
+
+  #szerkesztok{
+    
+    width: auto;
+  }
+ 
+  .headerlogo {
+      width: 90px;
+  }
+
+  #Viktor{
+    width:300px ;
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 30px;
+    float:left;
+  }
+  #tanarkep{
+    width: 250px;
+  height: 250px;
+  padding-left: 0px;
+  border:black;
+  border-image-width: 5px;
+  border-style: solid;
+  }
+  #tanarok{
+    width: 1600px;
+    height: 500px;
+    padding-top: 30px;
+    padding-left: 100px;
+    align-items: center;
+  }
+
+  #kepszoveg{
+      color:green;
+      
+  }
